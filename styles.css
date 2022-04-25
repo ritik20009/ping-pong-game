@@ -1,0 +1,46 @@
+#score-box{
+    box-sizing: border-box;
+    
+    height:100px;
+    width: 60vw;
+    border: 1px solid black;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+/*outer box*/
+.outer{
+    margin-top: 40px;
+    margin-left: 250px;
+    width:60vw;
+    height: 70vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* innner divs*/
+.inner{
+    height: 20px;
+    width:150px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+/* color of both divs*/
+#rod2{
+    background-color: rgb(34, 212, 153);
+}
+
+#ball{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(83, 111, 201);
+    border-radius: 50%;
+}
